@@ -114,19 +114,16 @@ int main()
     {
         std::cout << ++i << ". " << s << std::endl;
     };
-    fn("first");                                   // 1. first
-    fn("second");                                  // 2. second
+    fn("first");
+    fn("second");
 
-    // construct from lambda
     function<void(std::string const&)> f(fn);
-    f("third");                                    // 3. third
+    f("third");
 
-    // copy from another function
     function<void(std::string const&)> g(f);
-    f("forth - f");                                // 4. forth - f
-    g("forth - g");                                // 4. forth - g
+    f("forth - f");
+    g("forth - g");
 
-    // capture and copy non-trivial types like std::string
     std::string x("xxxx");
     function<void()> h([x]() { std::cout << x << std::endl; });
     h();
