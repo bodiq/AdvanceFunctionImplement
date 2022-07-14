@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section8_55/main.cpp
+iostream
+-
+memory
+-
+vector
+-
+functional
+-
+forward_list
+-
+

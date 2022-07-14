@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section6/Template.h
+iostream
+-
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section6/main.cpp
+Template.h
+/Users/bodya/Desktop/С++/AdvancedC++/Section6/Template.h
+

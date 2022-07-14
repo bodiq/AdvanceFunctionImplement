@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section 8.4/Neste.cpp
+Neste.h
+/Users/bodya/Desktop/С++/AdvancedC++/Section 8.4/Neste.h
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section 8.4/Neste.h
+iostream
+-
+vector
+-
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section 8.4/main.cpp
+Neste.h
+/Users/bodya/Desktop/С++/AdvancedC++/Section 8.4/Neste.h
+Neste.cpp
+/Users/bodya/Desktop/С++/AdvancedC++/Section 8.4/Neste.cpp
+

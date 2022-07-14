@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bodya/Desktop/С++/AdvancedC++/Testing/main.cpp
+iostream
+-
+memory.h
+-
+mm_malloc.h
+-
+functional
+-
+

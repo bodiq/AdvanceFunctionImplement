@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section5/Complex.cpp
+Complex.h
+/Users/bodya/Desktop/С++/AdvancedC++/Section5/Complex.h
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section5/Complex.h
+ostream
+-
+iostream
+-
+
+/Users/bodya/Desktop/С++/AdvancedC++/Section5/main.cpp
+iostream
+-
+Complex.h
+/Users/bodya/Desktop/С++/AdvancedC++/Section5/Complex.h
+
